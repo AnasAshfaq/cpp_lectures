@@ -26,11 +26,11 @@ enum class Product
 
 /// @brief Holds the names of the product categories.
 constexpr std::string_view PRODUCT_NAMES[static_cast<int>(Product::Count)] = {
-    [static_cast<int>(Product::Jeans)]         = "Jeans",
-    [static_cast<int>(Product::Tshirts)]      = "Tshirts",
-    [static_cast<int>(Product::Sweatshirts)]        = "Sweatshirts",
-    [static_cast<int>(Product::Jackets)]  = "Jackets",
-    [static_cast<int>(Product::Suits)]     = "Suits",
+    [static_cast<int>(Product::Jeans)] = "Jeans",
+    [static_cast<int>(Product::Tshirts)] = "Tshirts",
+    [static_cast<int>(Product::Sweatshirts)] = "Sweatshirts",
+    [static_cast<int>(Product::Jackets)] = "Jackets",
+    [static_cast<int>(Product::Suits)]   = "Suits",
     [static_cast<int>(Product::Shoes)]     = "Shoes",
     [static_cast<int>(Product::Hats)] = "Hats",
     [static_cast<int>(Product::Ties)]   = "Ties",
