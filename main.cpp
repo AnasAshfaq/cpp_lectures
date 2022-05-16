@@ -30,11 +30,11 @@ constexpr std::string_view PRODUCT_NAMES[static_cast<int>(Product::Count)] = {
     [static_cast<int>(Product::Tshirts)] = "Tshirts",
     [static_cast<int>(Product::Sweatshirts)] = "Sweatshirts",
     [static_cast<int>(Product::Jackets)] = "Jackets",
-    [static_cast<int>(Product::Suits)]   = "Suits",
-    [static_cast<int>(Product::Shoes)]     = "Shoes",
+    [static_cast<int>(Product::Suits)]  = "Suits",
+    [static_cast<int>(Product::Shoes)]  = "Shoes",
     [static_cast<int>(Product::Hats)] = "Hats",
-    [static_cast<int>(Product::Ties)]   = "Ties",
-    [static_cast<int>(Product::Shirts)]      = "Shirts",
+    [static_cast<int>(Product::Ties)]  = "Ties",
+    [static_cast<int>(Product::Shirts)] = "Shirts",
     [static_cast<int>(Product::Pants)] = "Pants",
 };
 
